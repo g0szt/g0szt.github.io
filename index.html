@@ -4,7 +4,7 @@
     <title>Weather Radar</title>
 
     <meta charset="utf-8"/>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta http-equiv="refresh" content="30" />
 
     <link href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" rel="stylesheet"/>
@@ -13,6 +13,14 @@
         li {
             list-style: none;
             display: inline-block;
+        }
+        body {
+            padding: 0;
+            margin: 0;
+        }
+        html, body, #map {
+            height: 100%;
+            width: 100vw;
         }
     </style>
 </head>
