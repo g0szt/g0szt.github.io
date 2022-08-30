@@ -49,8 +49,9 @@
         scrollWheelZoom: true,
         zoomControl: true,
         detectRetina: true,
-    });
 
+    });
+    map.setMaxBounds(map.getBounds());
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attributions: 'Map data © <a href="https://openstreetmap.org">OpenStreetMap</a> contributors'
