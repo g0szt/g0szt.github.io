@@ -56,7 +56,7 @@
         bounds = L.latLngBounds(southWest, northEast);
 
 
-    map.setMaxBounds(map.getBounds()); 
+    map.setMaxBounds(bounds); 
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attributions: 'Map data © <a href="https://openstreetmap.org">OpenStreetMap</a> contributors'
