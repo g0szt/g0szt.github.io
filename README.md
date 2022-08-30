@@ -1,5 +1,5 @@
 # g0szt.github.io
 
-Weather radar | Hungary
+Weather Radar | Hungary
 
 API: rainviewer.com
