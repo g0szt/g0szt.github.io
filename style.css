@@ -1,6 +1,7 @@
 li {
     list-style: none;
     display: inline-block;
+    font-size:1000px;
 }
 body {
     padding: 0;
